@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    background-color: #1145f01f;
+    padding: 50px 100px;
+}
+
+h1 {
+    color: #5254d4;
+    align-self: center;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    height: 60px;
+}
+
+.navigation li {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation li:hover {
+    background-color: #2009f70e;
+}
+
+.body {
+    background-color: #1145f01f;
+}
+
+.description {
+    color: #5254d4;
+    align-self: center;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.description p {
+    color: #2d2e74;
+}
+
+.cards {
+    color: #2d2e74;
+    align-self: center;
+    margin-left: 100px;
+    padding-bottom: 30px;
+    max-width: 500px;
+    display: flex;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 300px;
+    max-height: 220px;
+}
+
+.card {
+    border: 1px #2d2e74 solid;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.name {
+    color: #700fdf;
+}
+
+
