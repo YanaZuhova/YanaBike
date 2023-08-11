@@ -21,6 +21,10 @@ h1 {
     height: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:visited {
     color: #5254d4;
 }
@@ -33,7 +37,7 @@ a:visited {
 }
 
 .navigation li:hover {
-    background-color: #2009f70e;
+    background-color: #2109f71f;
 }
 
 .body {
