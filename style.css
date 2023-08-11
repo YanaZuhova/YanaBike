@@ -12,18 +12,24 @@
 h1 {
     color: #5254d4;
     align-self: center;
+    margin-bottom: 20px;
 }
 
 .navigation ul {
     display: flex;
     list-style: none;
-    height: 60px;
+    height: 20px;
+}
+
+a:visited {
+    color: #5254d4;
 }
 
 .navigation li {
     padding: 0 15px;
     display: flex;
     align-items: center;
+    height: 50px;
 }
 
 .navigation li:hover {
@@ -39,6 +45,7 @@ h1 {
     align-self: center;
     margin-left: 100px;
     padding-bottom: 30px;
+    padding-right: 40px;
 }
 
 h2 {
@@ -54,7 +61,7 @@ h2 {
     align-self: center;
     margin-left: 100px;
     padding-bottom: 30px;
-    width: 1400px;
+    max-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -106,6 +113,14 @@ h3 {
     margin: auto;
     margin-bottom: 25px;
     top: 50px;
-    
 }
 
+@media (max-width: 1000px) {
+    .header {
+        height: 20px;
+    }
+
+    .header ul {
+        display: none;
+    }
+}
