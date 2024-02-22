@@ -126,3 +126,7 @@ h3 {
         display: none;
     }
 }
+
+.card input {
+    max-width: 80%;
+}
