@@ -39,6 +39,7 @@ a {
 
 .body {
     background-color: #1145f01f;
+    padding-top: 120px;
 }
 
 .description {
@@ -129,4 +130,8 @@ h3 {
 
 .card input {
     max-width: 80%;
+}
+
+.column {
+    flex-direction: column;
 }
